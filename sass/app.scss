@@ -3,7 +3,7 @@ body { //overall styles
 	margin: 0;  
 	font-family: 'Roboto Mono', monospace;
 	font-size: 16px;
-	color: #000;
+	color: #fff;
 	//styling all links
 	a {
 		text-decoration: none;
@@ -13,12 +13,11 @@ body { //overall styles
 }
 //overall page bg	
 .alberta_lake {
-	background: #289aa7; //url("../img/bg/alberta_lake.png");
+	background: #289aa7 url("../img/bg/alberta_lake.png");
 	background-size: cover;
 	background-position: top;
 	background-repeat: no-repeat;
-	height: 100%;
-	width: 100%;
+	height: 100vh;
 }	
 	
 //styling logotip
@@ -88,22 +87,3 @@ body { //overall styles
 	align-self: flex-end;
 }
 	 
-.form {
-	&:hover { 
-		cursor: pointer; 
-	}
-}
-
-.form_email {
-	margin-right: 1rem;
-	border: 3px solid #42aacf;
-	border-radius: 25px;
-	font-size: 1rem;
-}
-
-.form_submit {
-	background-color: #42aacf;
-	font-size: 1rem;
-	border: 2px solid #42aacf;
-	border-radius: 25px;
- }	

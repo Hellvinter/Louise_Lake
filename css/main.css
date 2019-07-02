@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 16px;
   color: #fff; }
   body a {
@@ -13,8 +13,7 @@ body {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  height: 100%;
-  width: 100%; }
+  height: 100vh; }
 
 .flex-logo {
   display: -webkit-box;
@@ -77,20 +76,5 @@ body {
 .copyright {
   -ms-flex-item-align: end;
   align-self: flex-end; }
-
-.form:hover {
-  cursor: pointer; }
-
-.form_email {
-  margin-right: 1rem;
-  border: 3px solid #42aacf;
-  border-radius: 25px;
-  font-size: 1rem; }
-
-.form_submit {
-  background-color: #42aacf;
-  font-size: 1rem;
-  border: 2px solid #42aacf;
-  border-radius: 25px; }
 
 
